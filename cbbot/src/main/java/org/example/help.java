@@ -15,10 +15,10 @@ public class help extends ListenerAdapter {
                     .setColor(Color.cyan)
                     .setDescription("## `❓` › HELP \n" +
                             "Hier findest du die Commands vom CB Bot! \n\n" +
-                            "</avatar:1249772575073243211> - Zeige denn Avatar von einem Benutzer an! \n" +
-                            "</ban:1249772575073243209> - Banne einen Mitglied! (ONLY WITH BAN-PERMISSIONS!) \n" +
-                            "</kick:1249772575073243208> - Kicke einen Mitglied! (ONLY WITH KICK-PERMISSIONS!) \n" +
-                            "**Weitere Commands sind bald verfügbar!**")
+                            "1. </avatar:1249772575073243211> - Zeige denn Avatar von einem Benutzer an!\n\n" +
+                            "2. </ban:1249772575073243209> - Banne einen Mitglied!\n\n" +
+                            "3. </kick:1249772575073243208> - Kicke einen Mitglied!\n\n" +
+                            "__**Weitere Commands sind bald verfügbar!**__")
                     .setThumbnail(variable.logo)
                     .setImage(variable.streifen);
 
