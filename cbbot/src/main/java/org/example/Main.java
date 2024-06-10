@@ -31,7 +31,8 @@ public class Main {
                         new ban(),
                         new kick(),
                         new avatar(),
-                        new register()
+                        new register(),
+                        new help()
                 );
 
 
