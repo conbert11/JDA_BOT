@@ -25,6 +25,8 @@ public class register extends ListenerAdapter {
         OptionData usergetavatar = new OptionData(OptionType.USER, "user", "Wähle denn User", true);
         commandData.add(Commands.slash("avatar", "Bekomme denn Avatar vom Mitglied").addOptions(usergetavatar));
 
+        commandData.add(Commands.slash("help", "Zeige alle Commands an!"));
+
 
         event.getJDA().updateCommands().addCommands(commandData).queue();
     }
