@@ -32,7 +32,8 @@ public class Main {
                         new kick(),
                         new avatar(),
                         new register(),
-                        new help()
+                        new help(),
+                        new serverinfo()
                 );
 
 

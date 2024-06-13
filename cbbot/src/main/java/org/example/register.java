@@ -27,6 +27,8 @@ public class register extends ListenerAdapter {
 
         commandData.add(Commands.slash("help", "Zeige alle Commands an!"));
 
+        commandData.add(Commands.slash("serverinfo", "Erhalte infos über denn Server!"));
+
 
         event.getJDA().updateCommands().addCommands(commandData).queue();
     }
