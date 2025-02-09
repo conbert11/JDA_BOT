@@ -14,13 +14,11 @@ public class help extends ListenerAdapter {
             EmbedBuilder e = new EmbedBuilder()
                     .setColor(Color.cyan)
                     .setDescription("## `❓` › HELP \n" +
-                            "Hier findest du die Commands vom CB Bot! \n\n" +
+                            "Hier findest du die Commands vom Bot!! \n\n" +
                             "1. </avatar:1249772575073243211> - Zeige denn Avatar von einem Benutzer an!\n\n" +
                             "2. </ban:1249772575073243209> - Banne einen Mitglied!\n\n" +
                             "3. </kick:1249772575073243208> - Kicke einen Mitglied!\n\n" +
-                            "__**Weitere Commands sind bald verfügbar!**__")
-                    .setThumbnail(variable.logo)
-                    .setImage(variable.streifen);
+                            "__**Weitere Commands sind bald verfügbar!**__");
 
             event.replyEmbeds(e.build()).setEphemeral(true).queue();
 
