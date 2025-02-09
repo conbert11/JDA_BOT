@@ -14,7 +14,7 @@ import net.dv8tion.jda.api.utils.cache.CacheFlag;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-    public static String prefix = "cb!";
+    public static String prefix = "!";
     public static JDA bot;
 
 
@@ -39,7 +39,7 @@ public class Main {
 
 
         JDA bot = jda.build();
-        System.out.println("CB Bot wurde gestart!");
+        System.out.println("Der Discord Bot wurde gestart!");
         System.out.println("Prefix: " + prefix);
     }
 }
