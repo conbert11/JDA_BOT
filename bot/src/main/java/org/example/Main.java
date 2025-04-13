@@ -10,8 +10,6 @@ import net.dv8tion.jda.api.utils.ChunkingFilter;
 import net.dv8tion.jda.api.utils.MemberCachePolicy;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
     public static String prefix = "!";
@@ -19,7 +17,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-
         JDABuilder jda = JDABuilder.createDefault(secrets.TOKEN)
                 .setStatus(OnlineStatus.ONLINE)
                 .setActivity(Activity.playing("mit coolen Usern :)"))
